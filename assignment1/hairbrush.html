@@ -1,0 +1,278 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Hair Brush</title>
+			<style>
+
+				.brushhead{
+				position: absolute;
+				top:50px;
+				left:300px;	
+				width: 155px;
+				height: 300px;
+				background: black;
+				-moz-border-radius: 100px / 60px;
+				border-radius: 100px / 30px;
+				}
+
+				.pin{
+					position: absolute;
+					width: 250px;
+					height: 5px;
+					background: black;
+					border-radius: 5px;
+				}
+				
+					.pin1{
+					top:100px;
+					left:250px;
+	 				}
+
+					.pin2{					
+					top:125px;
+					left:250px;
+					}
+				
+					.pin3{				
+					top:150px;
+					left:250px;
+					}
+
+					.pin4{				
+					top:175px;
+					left:250px;
+					}
+
+					.pin5{			
+					top:200px;
+					left:250px;				
+					}
+
+					.pin6{			
+					top:225px;
+					left:250px;				
+					}
+
+					.pin7{			
+					top:250px;
+					left:250px;				
+					}
+
+					.pin8{
+					top:275px;
+					left:250px;				
+					}
+
+					.pin9{				
+					top:300px;
+					left:250px;					
+					}
+/* I wonder if there is a way to do repeative shapes of circles in a line or even pattern, to simplfy the work abit, so i don't have to called it like circle 1,2,3,4... */
+				
+				.tip{
+					position: absolute;
+					width: 15px;
+					height: 15px;
+					background: black;
+					border-radius: 15px;}
+/* put all same commands in a class to elimited some writing work. */			
+				
+					.tip1{
+					top: 95px;/*-5px from pin loction*/
+					left:250px;}
+					
+					.tip2{
+					top: 120px;/*-5px from pin loction*/
+					left:250px;}
+
+					.tip3{
+					top: 145px;/*-5px from pin loction*/
+					left:250px;}
+
+					.tip4{
+					top: 170px;/*-5px from pin loction*/
+					left:250px;}
+
+					.tip5{
+					top: 195px;/*-5px from pin loction*/
+					left:250px;}
+
+					.tip6{
+					top: 220px;/*-5px from pin loction*/
+					left:250px;}
+
+					.tip7{
+					top: 245px;/*-5px from pin loction*/
+					left:250px;}
+
+					.tip8{
+					top: 270px;/*-5px from pin loction*/
+					left:250px;}
+
+					.tip9{
+					top: 295px;/*-5px from pin loction*/
+					left:250px;}
+				
+/*across from "tip-tip# class" is the "cross- tip#c class"*/
+
+				.cross{
+					position: absolute;
+					width: 15px;
+					height: 15px;
+					background: black;
+					border-radius: 15px;
+					left:495px;/*250+250-5px*/
+					}
+
+					.tip1c{
+					top: 95px;/*same location as "tip" */}
+
+					.tip2c{
+					top: 120px;}
+					
+					.tip3c{
+					top: 145px;}
+
+					.tip4c{
+					top: 170px;}
+
+					.tip5c{
+					top: 195px;}
+
+					.tip6c{
+					top: 220px;}
+
+					.tip7c{
+					top: 245px;}
+
+					.tip8c{
+					top: 270px;}
+
+					.tip9c{
+					top: 295px;}
+
+
+				.combdetail {
+  				position: absolute;
+				top:40px;
+				left:340px;
+  				width: 80px;
+    			height: 25px;
+    			background-color: black;
+    			border-top-left-radius: 110px;
+    			border-top-right-radius: 110px;
+    			border-bottom: 0;
+
+				}
+
+
+				.combdetail2{
+  				position: absolute;
+  				transform: rotate(180deg);
+				top:340px;
+				left:340px;
+  				width: 80px;
+    			height: 40px;
+    			background-color: black;
+    			border-top-left-radius: 110px;
+    			border-top-right-radius: 110px;
+    			border-bottom: 0;
+
+				}
+
+				.brushbody{
+				position: absolute;
+				top:350px;
+				left:325px;
+				display:block;
+   				height: 375px;
+   				width: 110px;
+   				background-color: black;
+   				-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   				border-radius:         50%  50%  50%  50%  / 60%   60%   50%  50%;
+				}
+
+				.grab{
+				position: absolute;
+				top:450px;
+				left:338.5px;
+				width: 80px;
+				height: 180px;
+				background:black;
+				-moz-border-radius: 50px / 100px;
+				-webkit-border-radius: 50px / 100px;
+				border-radius: 50px / 100px;
+				border-width: 1.5px;
+				border-style:outset;
+				border-color:white;
+				}
+
+				.hole{
+				position: absolute;
+				top:659px;
+				left:368px;
+				width: 20px;
+				height: 20px;
+				background: white;
+				border-radius: 50px;
+				border-width: 2px;
+				border-style:inset;
+				border-color:white;
+				}
+
+			
+				
+			</style>
+				
+		</head>
+	<body>
+		<div class="brushhead"></div>
+
+		<div class="pin pin1"></div>
+		<div class="pin pin2"></div>
+		<div class="pin pin3"></div>
+		<div class="pin pin4"></div>
+		<div class="pin pin5"></div>
+		<div class="pin pin6"></div>
+		<div class="pin pin7"></div>
+		<div class="pin pin8"></div>
+		<div class="pin pin9"></div>
+
+		<div class="tip tip1"></div>
+		<div class="tip tip2"></div>
+		<div class="tip tip3"></div>
+		<div class="tip tip4"></div>
+		<div class="tip tip5"></div>
+		<div class="tip tip6"></div>
+		<div class="tip tip7"></div>
+		<div class="tip tip8"></div>
+		<div class="tip tip9"></div>
+
+		<div class="cross tip1c"></div>
+		<div class="cross tip2c"></div>
+		<div class="cross tip3c"></div>
+		<div class="cross tip4c"></div>
+		<div class="cross tip5c"></div>
+		<div class="cross tip6c"></div>
+		<div class="cross tip7c"></div>
+		<div class="cross tip8c"></div>
+		<div class="cross tip9c"></div>
+
+		<div class="combdetail"></div>
+		<div class="combdetail2"></div>
+
+		<div class="brushbody"></div>
+
+		<div class="grab"></div>
+
+		<div class="hole"></div>
+
+		
+
+	</body>
+</html>
+
+
+
+
